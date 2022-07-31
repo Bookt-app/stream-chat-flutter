@@ -36,6 +36,7 @@ class DeviceApi {
       data: {
         'id': deviceId,
         'push_provider': pushProvider.name,
+        'push_provider_name': 'PushFirebase',
       },
     );
     return EmptyResponse.fromJson(response.data);
